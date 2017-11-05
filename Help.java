@@ -22,3 +22,16 @@ public boolean onQueryTextChange(String newText) {
         }
         return filteredModelList;
     }
+
+
+
+if (isFromEmojiLayout) {
+                    y = szWindow.y > (y + floatRightContent.getHeight() + getStatusBarHeight() + widgetEmojiRightRelativeLayout.getHeight()/2) ? y : (y - widgetEmojiRightRelativeLayout.getHeight()/2);
+                }
+
+
+ if (isFromEmojiLayout) {
+
+                    y = szWindow.y > (y + floatLeftContent.getHeight() + getStatusBarHeight() + widgetEmojiLeftRelativeLayout.getHeight()/2) ? y : (y - widgetEmojiLeftRelativeLayout.getHeight()/2);
+
+                }
